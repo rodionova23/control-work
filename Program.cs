@@ -15,3 +15,19 @@ for (int i = 0; i < n; i++)
 Console.WriteLine();
 if (count == 0)
 Console.WriteLine("Четные числа отсутствуют");
+else
+{
+    int j = 0;
+    int[] newArray = new int[count];
+    Console.WriteLine("последовательность четных чисел:");
+    for(int i=0; i<n; i++)
+    {
+        if (arr[i] % 2 == 0)
+        {
+            newArray[j]=arr[i];
+            Console.Write(newArray[j]+" ");
+            j++;
+        }
+
+       }
+}
