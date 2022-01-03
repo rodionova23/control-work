@@ -11,3 +11,7 @@ for (int i = 0; i < n; i++)
         if (arr[i]%2 == 0)
             count++;
     }
+
+Console.WriteLine();
+if (count == 0)
+Console.WriteLine("Четные числа отсутствуют");
