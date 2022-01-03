@@ -8,4 +8,6 @@ for (int i = 0; i < n; i++)
     {
         arr[i] = rand.Next(1, 100);     
         Console.Write(arr[i] + " ");
+        if (arr[i]%2 == 0)
+            count++;
     }
